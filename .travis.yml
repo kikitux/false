@@ -1,0 +1,7 @@
+language: generic
+dist: xenial
+sudo: required
+before_script:
+- bash build.sh
+script:
+- bash test.sh
